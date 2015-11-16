@@ -176,8 +176,12 @@ The content will like this one :
 	<!DOCTYPE html>
 	<html>
 	<head>
-	<meta charset="utf-8">
+	<meta charset="UTF-8">
 	<title>My project using react, jspm and typescript</title>
+		<link rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 	
 		<!-- enables to load dynamiccaly external js library ; based upon systemjs -->
 	    <script src="jspm_packages/system.js"></script>
@@ -207,19 +211,20 @@ Create the **src** sub-directory in WebContent.
 Create the **main.tsx** file and write such a code :
 
 	// react-dom is used to make the bridge between React and the browser DOM
-	import * as ReactDom from 'react-dom'; 
+	import * as React from 'react'; 
+	import * as ReactDOM from 'react-dom';  
 	
 	// it is the main entry point called by the html file
 	export function main(el: HTMLElement): void {
 		 // in this example, we create only  simple div code which will be
 		 // put under <div id='content'> </div> defined in index.html
 	    var divcode = <div> dummy </div>
-	    ReactDom.render(divcode, el); 
+	    ReactDOM.render(divcode, el); 
 	}
 
 ## Use a material-ui component
 
-Create a view.tsx file along the main.tsx file.
+Create a myview.tsx file along the main.tsx file.
 
 	// importing the module React and the material component FlatButton
 	import * as React from 'react';
@@ -240,20 +245,22 @@ Create a view.tsx file along the main.tsx file.
     	//defines the render method used to create and display html content
     	// we use here a material FlatButton component
 	    render() : JSX.Element {
-	        return 
+	        return( 
 	            <div>
 	                <FlatButton label={this.props.foo} primary={true} > </FlatButton>
-	            </div>;
+	            </div>
+	            );
 	    }
 	}
 	
 Once done, update the main.tsx file to use MyView.
 
 	// react-dom is used to make the bridge between React and the browser DOM
-	import * as ReactDom from 'react-dom'; 
+	import * as React from 'react'; 
+	import * as ReactDOM from 'react-dom'; 
 
 	//notice the use of relative notation for the path
-	import {MyView} from "./view"
+	import {MyView} from "./myview"
     
 	// it is the main entry point called by the html file
 	export function main(el: HTMLElement): void {
@@ -261,10 +268,10 @@ Once done, update the main.tsx file to use MyView.
     // in this example, we create only  simple div code which will be
     // put under <div id='content'> </div> defined in index.html
     var divcode = <MyView foo="not so dummy">  </MyView>
-    ReactDom.render(divcode, el);
+    ReactDOM.render(divcode, el);
 	}
 	
-## running the application
+## Running the application
 
 You can use webapp servers like apache, php, servlets container, ..., and so on to host your simple application.
 
