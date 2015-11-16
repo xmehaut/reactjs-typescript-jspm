@@ -1,15 +1,18 @@
-System.register(["react"], function(exports_1) {
+System.register(["react", 'material-ui'], function(exports_1) {
     var __extends = (this && this.__extends) || function (d, b) {
         for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
         function __() { this.constructor = d; }
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
-    var React;
+    var React, material_ui_1;
     var MyView;
     return {
         setters:[
             function (React_1) {
                 React = React_1;
+            },
+            function (material_ui_1_1) {
+                material_ui_1 = material_ui_1_1;
             }],
         execute: function() {
             MyView = (function (_super) {
@@ -19,9 +22,9 @@ System.register(["react"], function(exports_1) {
                 }
                 //defines the render method used to create and display html content
                 // we use here a material FlatButton component
+                //warning : be aware you must return a html code between parenthesis  
                 MyView.prototype.render = function () {
-                    return;
-                    React.createElement("div", null, React.createElement("span", null, " toto "));
+                    return (React.createElement("div", null, React.createElement(material_ui_1.FlatButton, {"label": this.props.foo, "primary": true})));
                 };
                 //defines the default value of foo if not provided
                 MyView.defaultProps = {
@@ -33,4 +36,4 @@ System.register(["react"], function(exports_1) {
         }
     }
 });
-//# sourceMappingURL=view.js.map
+//# sourceMappingURL=myview.js.map
