@@ -1,0 +1,1 @@
+module.exports = require("npm:inline-style-prefixer@0.3.3/lib/Prefixer");

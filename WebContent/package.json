@@ -1,0 +1,15 @@
+{
+  "jspm": {
+    "dependencies": {
+      "material-ui": "npm:material-ui@^0.13.2",
+      "react": "npm:react@^0.14.2",
+      "react-dom": "npm:react-dom@^0.14.2"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.6.2"
+    }
+  },
+  "devDependencies": {
+    "jspm": "^0.16.14"
+  }
+}
