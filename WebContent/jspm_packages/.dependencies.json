@@ -286,5 +286,77 @@
   },
   "npm:lodash.istypedarray@3.0.2": {},
   "npm:lodash.isarguments@3.0.4": {},
-  "npm:caniuse-db@1.0.30000362": {}
+  "npm:caniuse-db@1.0.30000362": {},
+  "npm:react-bootstrap@0.27.3": {
+    "babel-runtime": "npm:babel-runtime@^5.8.25",
+    "classnames": "npm:classnames@^2.1.5",
+    "dom-helpers": "npm:dom-helpers@^2.4.0",
+    "keycode": "npm:keycode@^2.1.0",
+    "lodash-compat": "npm:lodash-compat@^3.10.1",
+    "react-overlays": "npm:react-overlays@^0.5.0",
+    "uncontrollable": "npm:uncontrollable@^3.1.3",
+    "react-prop-types": "npm:react-prop-types@^0.3.0",
+    "warning": "npm:warning@^2.1.0",
+    "react": "npm:react",
+    "react-dom": "npm:react-dom",
+    "process": "github:jspm/nodelibs-process@^0.1.0"
+  },
+  "npm:dom-helpers@2.4.0": {},
+  "npm:react-prop-types@0.3.0": {
+    "warning": "npm:warning@^2.0.0"
+  },
+  "npm:classnames@2.2.0": {
+    "systemjs-json": "github:systemjs/plugin-json@^0.1.0",
+    "assert": "github:jspm/nodelibs-assert@^0.1.0",
+    "process": "github:jspm/nodelibs-process@^0.1.0"
+  },
+  "npm:lodash-compat@3.10.1": {
+    "process": "github:jspm/nodelibs-process@^0.1.0"
+  },
+  "npm:keycode@2.1.0": {},
+  "npm:react-overlays@0.5.1": {
+    "classnames": "npm:classnames@^2.1.3",
+    "dom-helpers": "npm:dom-helpers@^2.3.0",
+    "react-prop-types": "npm:react-prop-types@^0.2.1",
+    "warning": "npm:warning@^2.0.0",
+    "react": "npm:react",
+    "react-dom": "npm:react-dom@^0.14.0"
+  },
+  "npm:uncontrollable@3.1.3": {
+    "invariant": "npm:invariant@^2.1.0",
+    "react": "npm:react",
+    "process": "github:jspm/nodelibs-process@^0.1.0"
+  },
+  "npm:react-prop-types@0.2.2": {
+    "warning": "npm:warning@^2.0.0"
+  },
+  "npm:invariant@2.1.2": {
+    "loose-envify": "npm:loose-envify@^1.0.0",
+    "process": "github:jspm/nodelibs-process@^0.1.0"
+  },
+  "npm:babel-runtime@5.8.34": {
+    "process": "github:jspm/nodelibs-process@^0.1.0"
+  },
+  "github:twbs/bootstrap@3.3.5": {
+    "jquery": "github:components/jquery"
+  },
+  "github:components/jquery@2.1.4": {},
+  "npm:when@3.7.4": {
+    "process": "github:jspm/nodelibs-process@^0.1.0"
+  },
+  "npm:es6-module-loader@0.17.8": {
+    "when": "npm:when@^3.7.2",
+    "fs": "github:jspm/nodelibs-fs@^0.1.0",
+    "process": "github:jspm/nodelibs-process@^0.1.0",
+    "util": "github:jspm/nodelibs-util@^0.1.0",
+    "systemjs-json": "github:systemjs/plugin-json@^0.1.0"
+  },
+  "npm:systemjs@0.19.5": {
+    "es6-module-loader": "npm:es6-module-loader@^0.17.4",
+    "when": "npm:when@^3.7.2",
+    "process": "github:jspm/nodelibs-process@^0.1.0",
+    "fs": "github:jspm/nodelibs-fs@^0.1.0",
+    "buffer": "github:jspm/nodelibs-buffer@^0.1.0",
+    "systemjs-json": "github:systemjs/plugin-json@^0.1.0"
+  }
 }

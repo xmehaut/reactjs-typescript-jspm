@@ -1,9 +1,13 @@
 {
   "jspm": {
     "dependencies": {
+      "bootstrap": "github:twbs/bootstrap@^3.3.5",
+      "core-js": "npm:core-js@^1.2.6",
       "material-ui": "npm:material-ui@^0.13.2",
       "react": "npm:react@^0.14.2",
-      "react-dom": "npm:react-dom@^0.14.2"
+      "react-bootstrap": "npm:react-bootstrap@^0.27.3",
+      "react-dom": "npm:react-dom@^0.14.2",
+      "systemjs": "npm:systemjs@^0.19.5"
     },
     "devDependencies": {
       "typescript": "npm:typescript@^1.6.2"
@@ -11,5 +15,8 @@
   },
   "devDependencies": {
     "jspm": "^0.16.14"
+  },
+  "dependencies": {
+    "systemjs": "^0.19.5"
   }
 }

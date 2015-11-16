@@ -290,7 +290,59 @@ and open your browser and open the following url :
 You normally will see you application displaying _Not so dummy_.
 
 
+## Installing an external module without declaration file
 
+If you want to use an external module which doesn't have yet a d.ts file associated, you need first to download the library :
+
+	$jspm install bootstrap
+	$jspm install npm:react-bootstrap
 	
+and then create manually the d.ts file.
+
+First, create the folder _react-bootstrap_ under the _typings_ directory, and then create the _react-bootstrap.d.ts_ file inside.
+Example :
+
+	///<reference path='../react/react.d.ts' />
+
+	declare namespace _ReactBoostrap {
+	    import React = __React
+	    export class Button extends React.Component<{}, {}> { 
+	    }
+	}
+	
+	declare module "react-bootstrap" {
+	    export import Button = _ReactBoostrap.Button;
+	}
+
+
+Once done, change the tsd.d.ts file to add a ref to this new file.
+
+	/// <reference path="react-bootstrap/react-bootstrap.d.ts" /> 
+	
+We can from now use the **Button** component from _react-bootstrap_ inside our application.
+
+Change the _myview.tsx_ file and add the following  import statement.
+	
+	import {Button} from "react-bootstrap";  
+	
+and then modify the render function :
+
+	render() {
+        return (
+            <div>
+                <FlatButton label={this.props.foo} primary={true} /> 
+                <Button>Default</Button>
+            </div>);
+    }
+    
+You can now launch the http-server executable, and test your app.
+
+It may occurs that errors occur when loading external modules in your browser. If so, manually reinstall systemjs :
+
+	npm install systemjs --save
+	jspm install npm:systemjs
+	
+to enssure you have the latest version (here it is the 19.5 one).
+
 
 

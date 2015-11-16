@@ -9,4 +9,6 @@
 /// <reference path="react/react-addons-update.d.ts" />
 /// <reference path="react/react-dom.d.ts" />
 /// <reference path="react/react-global.d.ts" />
-/// <reference path="material-ui/material-ui.d.ts" />
+/// <reference path="material-ui/material-ui.d.ts" /> 
+
+/// <reference path="react-bootstrap/react-bootstrap.d.ts" /> 
