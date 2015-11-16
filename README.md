@@ -342,7 +342,45 @@ It may occurs that errors occur when loading external modules in your browser. I
 	npm install systemjs --save
 	jspm install npm:systemjs
 	
-to enssure you have the latest version (here it is the 19.5 one).
+to ensure you have the latest version (here it is the 19.5 one).
 
+#Appendix A 
+
+### Some information about module handling in typescript
+
+
+We can summarize  the typescript import process as follows.
+
+Import statement does actually to things:
+
+- import the "specification" of the module we want to import, i.e. the "contract" of the imported module. This contract may be found from the ts code we write itself, and also from declaration files (d.ts) which may be provided through for instance tds. This specification is used by the compiler to ensure the code is correcly typed, and by tools to provide intellisense.
+- import actual code when the application runs, enabling then an incremental download of the module during the app running
+
+Moreover, the modules may be accessed in two way :
+
+- in a relative manner, i.e. wrt the location of the code being importing another module, e.g. import {Dummy} from './dummy'
+- in an absolute manner, i.e. from the application root. Doping this, the compiler will scan all the subdirectories to find the right specified module, and then try to load it
+
+We generally use the first option when we try to access modules described in the application itself, i.e. the ts code we write We generally use the second option when we import code from a vendor module like react, jquery, bootstrap, .... We usually use the tsd tool to import an already generated module description, and these declarations files are automatiocally put into the "typing" subdirectory. Parallely we need to downaload actual code in order to make the application running ; we may do this (for instance if we use the "system" compilation option) by using the jspm tool which will download the js files into the jspm_packages subdirectoy.
+
+If we downloaded by jspm for instance a js module which has not yet a d.ts declaration file, we will have to define one. I propose to put it also in the "typings" sub directory generated initially by tsd.
+
+The declaration file may be defined in many ways, but we may simplify by using the two following manners :
+
+- use the "export" statement in a given file, e.g. //file dummy.d.ts export class Dummy { name : string }
+
+and importing in a file by :
+
+	import {Dummy} from 'dummy' 
+
+using the "module" statement
+
+    //file dummy.d.ts declare module "mydummy" { export class Dummy { ... } }
+
+and importing it in another file by :
+
+	import {Dummy} fom 'mydummy' 
+
+If the two ways may seem quite similar, the second approach enables to declare the same "mydummy" module in separate files, the compiler merging all the declaration automatically. We may notice that in the second approach the name of the module is not the name of the file, as in was in the first approach.
 
 
