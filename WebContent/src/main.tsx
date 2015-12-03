@@ -1,5 +1,6 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
+
 // react-dom is used to make the bridge between React and the browser DOM
 
 //notice the use of relative notation for the path

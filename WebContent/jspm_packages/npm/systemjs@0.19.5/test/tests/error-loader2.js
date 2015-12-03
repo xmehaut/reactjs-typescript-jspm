@@ -1,0 +1,2 @@
+/* */ 
+require('non-existent');

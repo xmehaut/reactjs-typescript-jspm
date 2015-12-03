@@ -1,0 +1,4 @@
+/* */ 
+module.exports = {
+  nonce: 'ab'
+};

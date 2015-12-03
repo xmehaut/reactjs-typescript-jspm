@@ -1,28 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
+<meta charset="UTF-8">
 <title>My project using react, jspm and typescript</title>
+	<link rel="stylesheet"
+		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet"
+		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 
-<!-- enable to load dynamiccaly external js library ; based upon systemjs -->
-<script src="jspm_packages/system.js"></script> 
-
-<!-- download the config.js file enabling systemjs to find the module to download -->
-<script src="config.js"></script>
+	<script src="jspm_packages/system.js"></script>
+	<script src="config.js"></script>
 </head>
 <body>
 
-	<!-- the div in which the dynamic html file will be included -->
 	<div id="content"></div>
 
-	<!-- the main javascript entry point to start the application -->
 	<script>
-		System.import('main').then(
-				function(m) {
-					var element = document.getElementById("content");
-					m.main(element);
-				}
-		);
+		System.import('main').then(function(m) {
+			var element = document.getElementById("content");
+			m.main(element);
+		});
 	</script>
 
 </body>

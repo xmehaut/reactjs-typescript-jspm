@@ -2,7 +2,7 @@
 var events = require('events');
 var expect = require('chai').expect;
 var joe = require('joe');
-var domain = require('./index');
+var domain = require('../domain-browser@1.1.4');
 joe.describe('domain-browser', function(describe, it) {
   it('should work on throws', function(done) {
     var d = domain.create();
