@@ -383,4 +383,49 @@ and importing it in another file by :
 
 If the two ways may seem quite similar, the second approach enables to declare the same "mydummy" module in separate files, the compiler merging all the declaration automatically. We may notice that in the second approach the name of the module is not the name of the file, as in was in the first approach.
 
+### Using react contexts with typescript
 
+Using **contexts** in react enables a subcomponent to access some global information in a hierachy of components (cf.   <https://facebook.github.io/react/docs/context.html> ).
+
+Nevertheless it is not straightforward to use it in typescript. Below is a simple explanation of how we may use it in a typescript application . 
+
+Firstly, we need to add information in the containing components AND in the subcomponents : 
+
+In the containing component , something like that :
+```
+     static childContextTypes= {
+        open:  React.PropTypes.func.isRequired
+      }
+    
+      getChildContext() {
+        return {open: (value)=>this.changeState("",value)}
+      } 
+ ```
+
+and in the subcomponent : 
+
+```
+
+	export interface SectionContext {
+    open : (string)=>void;
+	}
+	
+	export class Section extends React.Component<SectionProps,{}> {  
+
+     isOpen =false;
+     context: SectionContext;  // context object typed with the context interface
+
+    // registration of the context type, already defined into the containing component
+     static contextTypes =  {
+        open:  React.PropTypes.func.isRequired
+     }
+    
+    change() {
+        this.isOpen = !this.isOpen;
+        // use of the context described in the containing component
+        this.context.open(this.isOpen?"true":"false");
+    }
+```
+
+
+ 
