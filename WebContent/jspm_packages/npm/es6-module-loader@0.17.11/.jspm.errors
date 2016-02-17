@@ -1,0 +1,319 @@
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/demo/test2.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/demo/test2.js:1:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/demo/test1.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/demo/test1.js:1:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/src/declarative.js:297:1: Unexpected token }
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/src/dynamic-only.js:39:1: Unexpected token }
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/src/loader.js:807:1: Unexpected token End of File
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/src/loader.js:807:1: Unexpected token End of File
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/src/wrapper-end.js:21:1: Unexpected token }
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/src/wrapper-start.js:84:24: Unexpected token End of File
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/src/wrapper-start.js:84:24: Unexpected token End of File
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loader/custom-folder/path.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loader/custom-folder/path.js:1:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loader/custom-path.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loader/custom-path.js:1:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loader/custom.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loader/custom.js:1:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loader/error1-parent.js:1:1: Unexpected reserved word import
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loader/error1-parent.js:1:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loader/master.js:1:1: Unexpected reserved word import
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loader/master.js:1:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loader/module.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loader/module.js:1:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loader/moduleName.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loader/moduleName.js:1:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loader/named.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loader/named.js:1:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loader/specific-path.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loader/specific-path.js:1:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loader/test.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loader/test.js:1:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_a.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_a.js:1:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_a.js:1:19: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_a.js:2:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_a.js:2:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_a.js:2:19: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_a.js:3:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_a.js:3:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_a.js:3:19: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_a.js:4:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_a.js:4:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_b.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_b.js:1:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_b.js:1:19: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_b.js:2:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_b.js:2:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_c.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_c.js:1:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_c.js:1:19: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_c.js:2:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_c.js:2:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_d.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_d.js:1:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_e.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_e.js:1:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_e.js:1:19: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_e.js:2:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_e.js:2:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_f.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_f.js:1:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_f.js:1:19: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_f.js:2:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_f.js:2:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_g.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_g.js:1:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_h.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_h.js:1:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_h.js:1:19: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_h.js:2:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_h.js:2:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_h.js:2:19: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_h.js:3:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_h.js:3:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_i.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_i.js:1:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_i.js:1:19: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_i.js:2:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/_i.js:2:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/a.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/a.js:1:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/a.js:1:19: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/a.js:2:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/a.js:2:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/b.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/b.js:1:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/c.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/c.js:1:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/c.js:1:19: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/c.js:2:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/c.js:2:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/c.js:2:19: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/c.js:3:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/c.js:3:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/load-non-existent.js:1:1: Unexpected reserved word import
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/load-non-existent.js:1:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/main.js:1:1: Unexpected reserved word import
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/main.js:1:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/s.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/s.js:1:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/s.js:1:22: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/s.js:2:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/s.js:2:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/s.js:2:19: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/s.js:3:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/loads/s.js:3:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/manual/source-maps/test.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/manual/source-maps/test.js:1:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/circular1.js:1:1: Unexpected reserved word import
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/circular1.js:1:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/circular1.js:1:30: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/circular1.js:3:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/circular1.js:3:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/circular1.js:5:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/circular1.js:5:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/circular1.js:5:17: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/circular1.js:5:20: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/circular1.js:5:35: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/circular1.js:9:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/circular1.js:9:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/circular1.js:11:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/circular1.js:11:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/circular2.js:1:1: Unexpected reserved word import
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/circular2.js:1:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/circular2.js:1:30: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/circular2.js:3:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/circular2.js:3:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/circular2.js:5:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/circular2.js:5:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/circular2.js:5:17: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/circular2.js:5:20: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/circular2.js:5:35: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/circular2.js:9:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/circular2.js:9:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/circular2.js:11:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/circular2.js:11:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/direct.js:1:1: Unexpected reserved word import
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/direct.js:1:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/direct.js:1:19: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/es6-dep.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/es6-dep.js:1:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/es6-file.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/es6-file.js:1:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/es6-file.js:8:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/es6-file.js:8:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/es6-file.js:8:8: Unexpected reserved word default
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/es6-file.js:8:16: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/es6-file.js:14:1: Unexpected reserved word import
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/es6-file.js:14:13: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/es6-file.js:14:15: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/es6-file.js:14:20: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/es6-generator.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/es6-generator.js:1:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/es6-withdep.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/es6-withdep.js:1:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/es6-withdep.js:1:19: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/es6.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/es6.js:1:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/even.js:1:1: Unexpected reserved word import
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/even.js:1:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/even.js:1:21: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/even.js:3:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/even.js:3:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/even.js:5:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/even.js:5:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export-default.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export-default.js:1:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export-default.js:1:8: Unexpected reserved word default
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export-default.js:1:16: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export-default.js:1:24: Unexpected token (
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export-default.js:1:25: Unexpected token )
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export-default.js:2:10: Unexpected token 'test'
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export-default.js:2:16: Unexpected token ;
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export-default.js:4:1: Unexpected token End of File
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export-default.js:4:1: Unexpected token End of File
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export-default.js:4:1: Unexpected token End of File
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export-star.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export-star.js:1:15: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export-star.js:2:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export-star.js:2:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export-star2.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export-star2.js:1:15: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export-star2.js:2:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export-star2.js:2:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export.js:1:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export.js:2:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export.js:2:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export.js:3:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export.js:3:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export.js:5:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export.js:5:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export.js:5:8: Unexpected reserved word default
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export.js:5:16: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export.js:9:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export.js:9:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export.js:10:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export.js:10:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export.js:10:12: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export.js:10:15: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export.js:10:20: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/export.js:10:23: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/import.js:1:1: Unexpected reserved word import
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/import.js:1:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/import.js:3:1: Unexpected reserved word import
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/import.js:3:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/import.js:3:10: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/import.js:3:15: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/import.js:5:1: Unexpected reserved word import
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/import.js:5:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/import.js:5:12: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/import.js:5:15: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/import.js:5:24: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/import.js:7:1: Unexpected reserved word import
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/import.js:7:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/import.js:7:15: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/import.js:7:18: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/import.js:7:27: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/import.js:9:1: Unexpected reserved word import
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/import.js:9:13: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/import.js:9:15: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/import.js:9:20: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/import.js:11:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/import.js:11:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/import.js:11:12: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/import.js:11:15: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/import.js:11:20: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/import.js:11:23: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/import.js:11:28: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/import.js:11:31: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/import.js:11:36: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/import.js:11:39: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/odd.js:1:1: Unexpected reserved word import
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/odd.js:1:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/odd.js:1:22: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/odd.js:3:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/odd.js:3:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/rebinding.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/rebinding.js:1:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/reexport-binding.js:1:1: Unexpected reserved word import
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/reexport-binding.js:1:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/reexport-binding.js:1:19: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/reexport1.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/reexport1.js:1:15: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/reexport2.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/reexport2.js:1:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/reexport2.js:1:12: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/reexport2.js:1:15: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/reexport2.js:1:20: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/reexport2.js:1:23: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/reexport2.js:1:32: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/reexport2.js:2:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/reexport2.js:2:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/reexport2.js:2:8: Unexpected reserved word default
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/reexport2.js:2:16: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/test-file.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/test-file.js:1:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/test-file.js:3:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/test-file.js:3:8: Semi-colon expected
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/test-file.js:3:8: Unexpected reserved word default
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/test-file.js:3:16: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/star-dep.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/syntax/star-dep.js:1:8: Semi-colon expected
+
+MultipleErrors: C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/worker/es6.js:1:1: Unexpected reserved word export
+C:/Users/xmeha/AppData/Local/.jspm/packages/npm/es6-module-loader@0.17.11/test/worker/es6.js:1:8: Semi-colon expected

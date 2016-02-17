@@ -1,12 +1,8 @@
+// it is the main entry point called by the html file
 System.register(['react', 'react-dom', "./myview"], function(exports_1) {
+    "use strict";
     var React, ReactDOM, myview_1;
-    // it is the main entry point called by the html file
-    function main(el) {
-        // in this example, we create only  simple div code which will be
-        // put under <div id='content'> </div> defined in index.html
-        ReactDOM.render(React.createElement("div", null, React.createElement(myview_1.MyView, {"foo": "not so dummy"}, " ")), el);
-    }
-    exports_1("main", main);
+    var el;
     return {
         setters:[
             function (React_1) {
@@ -19,7 +15,10 @@ System.register(['react', 'react-dom', "./myview"], function(exports_1) {
                 myview_1 = myview_1_1;
             }],
         execute: function() {
+            // in this example, we only create simple personnal component code which will be
+            // put under <div id='content'> </div> defined in index.html
+            el = document.getElementById("content");
+            ReactDOM.render(React.createElement(myview_1.MyView, {foo: "not so dummy"}, " "), el);
         }
     }
 });
-//# sourceMappingURL=main.js.map

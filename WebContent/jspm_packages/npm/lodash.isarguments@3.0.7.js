@@ -1,0 +1,1 @@
+module.exports = require("npm:lodash.isarguments@3.0.7/index");

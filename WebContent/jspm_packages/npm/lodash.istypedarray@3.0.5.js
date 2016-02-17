@@ -1,0 +1,1 @@
+module.exports = require("npm:lodash.istypedarray@3.0.5/index");

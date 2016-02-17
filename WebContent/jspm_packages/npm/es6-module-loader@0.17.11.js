@@ -1,0 +1,1 @@
+module.exports = require("npm:es6-module-loader@0.17.11/index");

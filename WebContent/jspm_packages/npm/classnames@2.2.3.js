@@ -1,0 +1,1 @@
+module.exports = require("npm:classnames@2.2.3/index.js");

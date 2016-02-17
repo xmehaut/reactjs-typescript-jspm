@@ -1,0 +1,1 @@
+module.exports = require("npm:react-addons-pure-render-mixin@0.14.7/index.js");

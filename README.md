@@ -1,5 +1,5 @@
 # reactjs-typescript-jspm
-This is an simple example showing how to use Reactjs a with TypeScript and JSPM. Tested with Typescript 1.7, react 1.4.3, jspm 0.16.15 . 
+This is an simple example showing how to use Reactjs a with TypeScript and JSPM. Tested with Typescript 1.7, react 1.4.7, jspm 0.16.19 . 
 
 
 ## Introduction
@@ -76,7 +76,7 @@ Go to the MyProject/WebContent folder.
 
 #### 1. Install jspm CLI:
 
-    npm install jspm -g
+    npm install -g jspm 
 
 #### 2. Create a project:
 
@@ -118,28 +118,37 @@ It is possible to run through the above prompts again at any time with `jspm ini
 
 A config.js file is generated in the WebContent folder. We want to write our code into the WebContent/src directory.
 We need to change the config.js file to do this by adding and modifying the following options in the file.
-	  
-	  baseURL: ".",
-	  typescriptOptions: {
-	    "noImplicitAny": false,
-	    "typeCheck": true,
-	    "jsx": "react"
-	  },
-	  paths: {
-	    "*": "src/*",
-	    "src": "src",
-	    "github:*": "jspm_packages/github/*",
-	    "npm:*": "jspm_packages/npm/*"
-	  },
-	
+``` 
+	  System.config({
+  baseURL: "/",
+  defaultJSExtensions: true,
+  transpiler: "typescript",
+  typescriptOptions: {
+    "noImplicitAny": false,
+    "typeCheck": true,
+    "jsx": "react"
+  },
+  paths: {
+    "*": "src/*",
+    "src": "src",
+    "github:*": "jspm_packages/github/*",
+    "npm:*": "jspm_packages/npm/*"
+  },
+
+  packages: {
+    "src": {
+      "defaultExtension": "js"
+    }
+  },
+  ...
+``` 
 
 ## Installing React and other libraries
 
 Install Reactjs :
 
-	jspm install npm:react-global
-	jspm install npm:react-dom
 	jspm install npm:react
+	jspm install npm:react-dom
 
 Install possibly material-ui (material ui is  library enabling to use google material UI patterns with react, another one being react-toolbox) :
 
@@ -153,7 +162,7 @@ In order to download external library definition files, we need the TSD tool whi
 
 To install it, write the following command :
 
-	$ npm install tsd -g
+	$ npm install -g  tsd 
 	
 Once downloaded, we install a new library by typing :
 
@@ -183,7 +192,7 @@ The content will like this one :
 		<link rel="stylesheet"
 			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 	
-		<!-- enables to load dynamiccaly external js library ; based upon systemjs -->
+		<!-- enables to load dynamically external js library ; based upon systemjs -->
 	    <script src="jspm_packages/system.js"></script>
 	    
 	    <!-- downloads the config.js file enabling systemjs to find the module to download -->
@@ -195,10 +204,7 @@ The content will like this one :
 	
 	<!-- the main javascript entry point to start the application -->
     <script>
-        System.import('main').then(function(m) {
-            var element = document.getElementById("content");
-            m.main(element);
-        });
+        System.import('main');
     </script>
 </body>
 </html>
@@ -215,12 +221,7 @@ Create the **main.tsx** file and write such a code :
 	import * as ReactDOM from 'react-dom';  
 	
 	// it is the main entry point called by the html file
-	export function main(el: HTMLElement): void {
-		 // in this example, we create only  simple div code which will be
-		 // put under <div id='content'> </div> defined in index.html
-	    var divcode = <div> dummy </div>
-	    ReactDOM.render(divcode, el); 
-	}
+	ReactDOM.render( <div> dummy </div> </MyView>, el);
 
 ## Use a material-ui component
 
@@ -255,21 +256,22 @@ Create a myview.tsx file along the main.tsx file.
 	
 Once done, update the main.tsx file to use MyView.
 
+	// it is the main entry point called by the html file
+
+	import * as React from 'react';
+
 	// react-dom is used to make the bridge between React and the browser DOM
-	import * as React from 'react'; 
-	import * as ReactDOM from 'react-dom'; 
+	import * as ReactDOM from 'react-dom';
+
 
 	//notice the use of relative notation for the path
 	import {MyView} from "./myview"
     
-	// it is the main entry point called by the html file
-	export function main(el: HTMLElement): void {
-    
-    // in this example, we create only  simple div code which will be
-    // put under <div id='content'> </div> defined in index.html
-    var divcode = <MyView foo="not so dummy">  </MyView>
-    ReactDOM.render(divcode, el);
-	}
+	// in this example, we only create simple personnal component code which will be
+	// put under <div id='content'> </div> defined in index.html
+
+	var el = document.getElementById("content");
+	ReactDOM.render( <MyView foo="not so dummy"> </MyView>, el);
 	
 ## Running the application
 
@@ -277,7 +279,7 @@ You can use webapp servers like apache, php, servlets container, ..., and so on 
 
 You may also want to simply serve your files by using the http-server simple application.
 
-	npm install http-server -g
+	npm install  -g http-server
 	
 Once downloaded, under WebContent, write this command in a shell :
 

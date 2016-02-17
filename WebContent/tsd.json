@@ -6,40 +6,40 @@
   "bundle": "typings/tsd.d.ts",
   "installed": {
     "react/react-addons-transition-group.d.ts": {
-      "commit": "78d36dd49b6b55b9fdfe61776a12bf05c8b07777"
+      "commit": "12b8a28146a065402f292b38c4bfab91ab580d13"
     },
     "react/react-global.d.ts": {
-      "commit": "78d36dd49b6b55b9fdfe61776a12bf05c8b07777"
+      "commit": "12b8a28146a065402f292b38c4bfab91ab580d13"
     },
     "react/react-addons-linked-state-mixin.d.ts": {
-      "commit": "78d36dd49b6b55b9fdfe61776a12bf05c8b07777"
+      "commit": "12b8a28146a065402f292b38c4bfab91ab580d13"
     },
     "react/react-addons-create-fragment.d.ts": {
-      "commit": "78d36dd49b6b55b9fdfe61776a12bf05c8b07777"
+      "commit": "12b8a28146a065402f292b38c4bfab91ab580d13"
     },
     "react/react-addons-pure-render-mixin.d.ts": {
-      "commit": "78d36dd49b6b55b9fdfe61776a12bf05c8b07777"
+      "commit": "12b8a28146a065402f292b38c4bfab91ab580d13"
     },
     "react/react-addons-update.d.ts": {
-      "commit": "78d36dd49b6b55b9fdfe61776a12bf05c8b07777"
+      "commit": "12b8a28146a065402f292b38c4bfab91ab580d13"
     },
     "react/react-addons-perf.d.ts": {
-      "commit": "78d36dd49b6b55b9fdfe61776a12bf05c8b07777"
+      "commit": "12b8a28146a065402f292b38c4bfab91ab580d13"
     },
     "react/react.d.ts": {
-      "commit": "78d36dd49b6b55b9fdfe61776a12bf05c8b07777"
+      "commit": "12b8a28146a065402f292b38c4bfab91ab580d13"
     },
     "react/react-addons-css-transition-group.d.ts": {
-      "commit": "78d36dd49b6b55b9fdfe61776a12bf05c8b07777"
+      "commit": "12b8a28146a065402f292b38c4bfab91ab580d13"
     },
     "react/react-addons-test-utils.d.ts": {
-      "commit": "78d36dd49b6b55b9fdfe61776a12bf05c8b07777"
+      "commit": "12b8a28146a065402f292b38c4bfab91ab580d13"
     },
     "react/react-dom.d.ts": {
-      "commit": "78d36dd49b6b55b9fdfe61776a12bf05c8b07777"
+      "commit": "12b8a28146a065402f292b38c4bfab91ab580d13"
     },
     "material-ui/material-ui.d.ts": {
-      "commit": "78d36dd49b6b55b9fdfe61776a12bf05c8b07777"
+      "commit": "12b8a28146a065402f292b38c4bfab91ab580d13"
     }
   }
 }

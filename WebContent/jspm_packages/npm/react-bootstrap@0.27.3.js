@@ -1,1 +1,1 @@
-module.exports = require("npm:react-bootstrap@0.27.3/lib/index");
+module.exports = require("npm:react-bootstrap@0.27.3/lib/index.js");

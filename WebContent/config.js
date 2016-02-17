@@ -16,27 +16,27 @@ System.config({
 
   packages: {
     "src": {
-      "defaultExtension": "ts"
+      "defaultExtension": "js"
     }
   },
 
   map: {
-    "bootstrap": "github:twbs/bootstrap@3.3.5",
+    "bootstrap": "github:twbs/bootstrap@3.3.6",
     "core-js": "npm:core-js@1.2.6",
-    "material-ui": "npm:material-ui@0.13.2",
-    "react": "npm:react@0.14.3",
+    "material-ui": "npm:material-ui@0.13.4",
+    "react": "npm:react@0.14.7",
     "react-bootstrap": "npm:react-bootstrap@0.27.3",
-    "react-dom": "npm:react-dom@0.14.3",
-    "systemjs": "npm:systemjs@0.19.5",
-    "typescript": "npm:typescript@1.6.2",
+    "react-dom": "npm:react-dom@0.14.7",
+    "systemjs": "npm:systemjs@0.19.22",
+    "typescript": "npm:typescript@1.8.0",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
     "github:jspm/nodelibs-buffer@0.1.0": {
-      "buffer": "npm:buffer@3.5.3"
+      "buffer": "npm:buffer@3.6.0"
     },
     "github:jspm/nodelibs-domain@0.1.0": {
-      "domain-browser": "npm:domain-browser@1.1.4"
+      "domain-browser": "npm:domain-browser@1.1.7"
     },
     "github:jspm/nodelibs-events@0.1.1": {
       "events": "npm:events@1.0.2"
@@ -56,14 +56,8 @@ System.config({
     "github:jspm/nodelibs-util@0.1.0": {
       "util": "npm:util@0.10.3"
     },
-    "github:twbs/bootstrap@3.3.5": {
-      "jquery": "github:components/jquery@2.1.4"
-    },
-    "npm:amdefine@1.0.0": {
-      "fs": "github:jspm/nodelibs-fs@0.1.2",
-      "module": "github:jspm/nodelibs-module@0.1.0",
-      "path": "github:jspm/nodelibs-path@0.1.0",
-      "process": "github:jspm/nodelibs-process@0.1.2"
+    "github:twbs/bootstrap@3.3.6": {
+      "jquery": "github:components/jquery@2.2.0"
     },
     "npm:asap@2.0.3": {
       "domain": "github:jspm/nodelibs-domain@0.1.0",
@@ -72,37 +66,32 @@ System.config({
     "npm:assert@1.3.0": {
       "util": "npm:util@0.10.3"
     },
-    "npm:babel-runtime@5.8.34": {
+    "npm:babel-runtime@5.8.35": {
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
-    "npm:browserslist@1.0.1": {
-      "caniuse-db": "npm:caniuse-db@1.0.30000362",
+    "npm:browserslist@1.1.3": {
+      "caniuse-db": "npm:caniuse-db@1.0.30000409",
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "path": "github:jspm/nodelibs-path@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2",
       "systemjs-json": "github:systemjs/plugin-json@0.1.0"
     },
-    "npm:buffer@3.5.3": {
+    "npm:buffer@3.6.0": {
       "base64-js": "npm:base64-js@0.0.8",
       "child_process": "github:jspm/nodelibs-child_process@0.1.0",
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "ieee754": "npm:ieee754@1.1.6",
-      "is-array": "npm:is-array@1.0.1",
+      "isarray": "npm:isarray@1.0.0",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:caniuse-api@1.4.1": {
-      "browserslist": "npm:browserslist@1.0.1",
-      "caniuse-db": "npm:caniuse-db@1.0.30000362",
+      "browserslist": "npm:browserslist@1.1.3",
+      "caniuse-db": "npm:caniuse-db@1.0.30000409",
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "lodash.memoize": "npm:lodash.memoize@2.4.1",
       "lodash.uniq": "npm:lodash.uniq@3.2.2",
       "path": "github:jspm/nodelibs-path@0.1.0",
       "shelljs": "npm:shelljs@0.5.3"
-    },
-    "npm:classnames@2.2.0": {
-      "assert": "github:jspm/nodelibs-assert@0.1.0",
-      "process": "github:jspm/nodelibs-process@0.1.2",
-      "systemjs-json": "github:systemjs/plugin-json@0.1.0"
     },
     "npm:core-js@1.2.6": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
@@ -113,59 +102,38 @@ System.config({
     "npm:core-util-is@1.0.2": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0"
     },
-    "npm:domain-browser@1.1.4": {
+    "npm:domain-browser@1.1.7": {
       "events": "github:jspm/nodelibs-events@0.1.1"
     },
-    "npm:envify@3.4.0": {
-      "jstransform": "npm:jstransform@10.1.0",
-      "process": "github:jspm/nodelibs-process@0.1.2",
-      "through": "npm:through@2.3.8"
-    },
-    "npm:es6-module-loader@0.17.8": {
+    "npm:es6-module-loader@0.17.11": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "process": "github:jspm/nodelibs-process@0.1.2",
       "systemjs-json": "github:systemjs/plugin-json@0.1.0",
       "util": "github:jspm/nodelibs-util@0.1.0",
-      "when": "npm:when@3.7.4"
-    },
-    "npm:esprima-fb@13001.1001.0-dev-harmony-fb": {
-      "fs": "github:jspm/nodelibs-fs@0.1.2",
-      "process": "github:jspm/nodelibs-process@0.1.2"
+      "when": "npm:when@3.7.7"
     },
     "npm:fbjs@0.2.1": {
       "core-js": "npm:core-js@1.2.6",
       "process": "github:jspm/nodelibs-process@0.1.2",
-      "promise": "npm:promise@7.0.4",
+      "promise": "npm:promise@7.1.1",
       "whatwg-fetch": "npm:whatwg-fetch@0.9.0"
     },
-    "npm:fbjs@0.3.2": {
-      "core-js": "npm:core-js@1.2.6",
-      "loose-envify": "npm:loose-envify@1.1.0",
-      "process": "github:jspm/nodelibs-process@0.1.2",
-      "promise": "npm:promise@7.0.4",
-      "ua-parser-js": "npm:ua-parser-js@0.7.9",
-      "whatwg-fetch": "npm:whatwg-fetch@0.9.0"
+    "npm:fbjs@0.6.1": {
+      "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:inherits@2.0.1": {
       "util": "github:jspm/nodelibs-util@0.1.0"
     },
-    "npm:inline-style-prefixer@0.3.3": {
+    "npm:inline-style-prefixer@0.5.4": {
       "bowser": "npm:bowser@1.0.0",
-      "caniuse-api": "npm:caniuse-api@1.4.1"
+      "caniuse-api": "npm:caniuse-api@1.4.1",
+      "process": "github:jspm/nodelibs-process@0.1.2"
     },
-    "npm:invariant@2.1.2": {
+    "npm:invariant@2.2.0": {
       "loose-envify": "npm:loose-envify@1.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
-    "npm:jstransform@10.1.0": {
-      "base62": "npm:base62@0.1.1",
-      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
-      "esprima-fb": "npm:esprima-fb@13001.1001.0-dev-harmony-fb",
-      "fs": "github:jspm/nodelibs-fs@0.1.2",
-      "process": "github:jspm/nodelibs-process@0.1.2",
-      "source-map": "npm:source-map@0.1.31"
-    },
-    "npm:lodash-compat@3.10.1": {
+    "npm:lodash-compat@3.10.2": {
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:lodash._basecallback@3.3.1": {
@@ -177,7 +145,7 @@ System.config({
     },
     "npm:lodash._baseisequal@3.0.7": {
       "lodash.isarray": "npm:lodash.isarray@3.0.4",
-      "lodash.istypedarray": "npm:lodash.istypedarray@3.0.2",
+      "lodash.istypedarray": "npm:lodash.istypedarray@3.0.5",
       "lodash.keys": "npm:lodash.keys@3.1.2"
     },
     "npm:lodash._baseuniq@3.0.3": {
@@ -193,7 +161,7 @@ System.config({
     },
     "npm:lodash.keys@3.1.2": {
       "lodash._getnative": "npm:lodash._getnative@3.9.1",
-      "lodash.isarguments": "npm:lodash.isarguments@3.0.4",
+      "lodash.isarguments": "npm:lodash.isarguments@3.0.7",
       "lodash.isarray": "npm:lodash.isarray@3.0.4"
     },
     "npm:lodash.memoize@2.4.1": {
@@ -220,20 +188,20 @@ System.config({
       "stream": "github:jspm/nodelibs-stream@0.1.0",
       "util": "github:jspm/nodelibs-util@0.1.0"
     },
-    "npm:material-ui@0.13.2": {
+    "npm:material-ui@0.13.4": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
-      "inline-style-prefixer": "npm:inline-style-prefixer@0.3.3",
+      "inline-style-prefixer": "npm:inline-style-prefixer@0.5.4",
       "lodash.debounce": "npm:lodash.debounce@3.1.1",
       "lodash.throttle": "npm:lodash.throttle@3.0.4",
       "path": "github:jspm/nodelibs-path@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2",
-      "react": "npm:react@0.14.3",
-      "react-addons-create-fragment": "npm:react-addons-create-fragment@0.14.2",
-      "react-addons-pure-render-mixin": "npm:react-addons-pure-render-mixin@0.14.2",
-      "react-addons-transition-group": "npm:react-addons-transition-group@0.14.2",
-      "react-addons-update": "npm:react-addons-update@0.14.2",
-      "react-dom": "npm:react-dom@0.14.2",
-      "react-tap-event-plugin": "npm:react-tap-event-plugin@0.2.1",
+      "react": "npm:react@0.14.7",
+      "react-addons-create-fragment": "npm:react-addons-create-fragment@0.14.7",
+      "react-addons-pure-render-mixin": "npm:react-addons-pure-render-mixin@0.14.7",
+      "react-addons-transition-group": "npm:react-addons-transition-group@0.14.7",
+      "react-addons-update": "npm:react-addons-update@0.14.7",
+      "react-dom": "npm:react-dom@0.14.7",
+      "react-tap-event-plugin": "npm:react-tap-event-plugin@0.2.2",
       "warning": "npm:warning@2.1.0"
     },
     "npm:os-browserify@0.1.2": {
@@ -245,47 +213,44 @@ System.config({
     "npm:process@0.11.2": {
       "assert": "github:jspm/nodelibs-assert@0.1.0"
     },
-    "npm:promise@7.0.4": {
+    "npm:promise@7.1.1": {
       "asap": "npm:asap@2.0.3",
       "fs": "github:jspm/nodelibs-fs@0.1.2"
     },
-    "npm:react-addons-create-fragment@0.14.2": {
-      "react": "npm:react@0.14.3"
+    "npm:react-addons-create-fragment@0.14.7": {
+      "react": "npm:react@0.14.7"
     },
-    "npm:react-addons-pure-render-mixin@0.14.2": {
-      "react": "npm:react@0.14.3"
+    "npm:react-addons-pure-render-mixin@0.14.7": {
+      "react": "npm:react@0.14.7"
     },
-    "npm:react-addons-transition-group@0.14.2": {
-      "react": "npm:react@0.14.3"
+    "npm:react-addons-transition-group@0.14.7": {
+      "react": "npm:react@0.14.7"
     },
-    "npm:react-addons-update@0.14.2": {
-      "react": "npm:react@0.14.3"
+    "npm:react-addons-update@0.14.7": {
+      "react": "npm:react@0.14.7"
     },
     "npm:react-bootstrap@0.27.3": {
-      "babel-runtime": "npm:babel-runtime@5.8.34",
-      "classnames": "npm:classnames@2.2.0",
+      "babel-runtime": "npm:babel-runtime@5.8.35",
+      "classnames": "npm:classnames@2.2.3",
       "dom-helpers": "npm:dom-helpers@2.4.0",
       "keycode": "npm:keycode@2.1.0",
-      "lodash-compat": "npm:lodash-compat@3.10.1",
+      "lodash-compat": "npm:lodash-compat@3.10.2",
       "process": "github:jspm/nodelibs-process@0.1.2",
-      "react": "npm:react@0.14.3",
-      "react-dom": "npm:react-dom@0.14.2",
-      "react-overlays": "npm:react-overlays@0.5.1",
+      "react": "npm:react@0.14.7",
+      "react-dom": "npm:react-dom@0.14.7",
+      "react-overlays": "npm:react-overlays@0.5.4",
       "react-prop-types": "npm:react-prop-types@0.3.0",
-      "uncontrollable": "npm:uncontrollable@3.1.3",
+      "uncontrollable": "npm:uncontrollable@3.2.1",
       "warning": "npm:warning@2.1.0"
     },
-    "npm:react-dom@0.14.2": {
-      "react": "npm:react@0.14.3"
+    "npm:react-dom@0.14.7": {
+      "react": "npm:react@0.14.7"
     },
-    "npm:react-dom@0.14.3": {
-      "react": "npm:react@0.14.3"
-    },
-    "npm:react-overlays@0.5.1": {
-      "classnames": "npm:classnames@2.2.0",
+    "npm:react-overlays@0.5.4": {
+      "classnames": "npm:classnames@2.2.3",
       "dom-helpers": "npm:dom-helpers@2.4.0",
-      "react": "npm:react@0.14.3",
-      "react-dom": "npm:react-dom@0.14.2",
+      "react": "npm:react@0.14.7",
+      "react-dom": "npm:react-dom@0.14.7",
       "react-prop-types": "npm:react-prop-types@0.2.2",
       "warning": "npm:warning@2.1.0"
     },
@@ -295,13 +260,12 @@ System.config({
     "npm:react-prop-types@0.3.0": {
       "warning": "npm:warning@2.1.0"
     },
-    "npm:react-tap-event-plugin@0.2.1": {
+    "npm:react-tap-event-plugin@0.2.2": {
       "fbjs": "npm:fbjs@0.2.1",
-      "react": "npm:react@0.14.3"
+      "react": "npm:react@0.14.7"
     },
-    "npm:react@0.14.3": {
-      "envify": "npm:envify@3.4.0",
-      "fbjs": "npm:fbjs@0.3.2",
+    "npm:react@0.14.7": {
+      "fbjs": "npm:fbjs@0.6.1",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:readable-stream@1.1.13": {
@@ -322,12 +286,6 @@ System.config({
       "path": "github:jspm/nodelibs-path@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
-    "npm:source-map@0.1.31": {
-      "amdefine": "npm:amdefine@1.0.0",
-      "fs": "github:jspm/nodelibs-fs@0.1.2",
-      "path": "github:jspm/nodelibs-path@0.1.0",
-      "process": "github:jspm/nodelibs-process@0.1.2"
-    },
     "npm:stream-browserify@1.0.0": {
       "events": "github:jspm/nodelibs-events@0.1.1",
       "inherits": "npm:inherits@2.0.1",
@@ -336,25 +294,17 @@ System.config({
     "npm:string_decoder@0.10.31": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0"
     },
-    "npm:systemjs@0.19.5": {
-      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
-      "es6-module-loader": "npm:es6-module-loader@0.17.8",
+    "npm:systemjs@0.19.22": {
+      "es6-module-loader": "npm:es6-module-loader@0.17.11",
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "process": "github:jspm/nodelibs-process@0.1.2",
       "systemjs-json": "github:systemjs/plugin-json@0.1.0",
-      "when": "npm:when@3.7.4"
+      "when": "npm:when@3.7.7"
     },
-    "npm:through@2.3.8": {
+    "npm:uncontrollable@3.2.1": {
+      "invariant": "npm:invariant@2.2.0",
       "process": "github:jspm/nodelibs-process@0.1.2",
-      "stream": "github:jspm/nodelibs-stream@0.1.0"
-    },
-    "npm:ua-parser-js@0.7.9": {
-      "systemjs-json": "github:systemjs/plugin-json@0.1.0"
-    },
-    "npm:uncontrollable@3.1.3": {
-      "invariant": "npm:invariant@2.1.2",
-      "process": "github:jspm/nodelibs-process@0.1.2",
-      "react": "npm:react@0.14.3"
+      "react": "npm:react@0.14.7"
     },
     "npm:util@0.10.3": {
       "inherits": "npm:inherits@2.0.1",
@@ -364,7 +314,7 @@ System.config({
       "loose-envify": "npm:loose-envify@1.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
-    "npm:when@3.7.4": {
+    "npm:when@3.7.7": {
       "process": "github:jspm/nodelibs-process@0.1.2"
     }
   }

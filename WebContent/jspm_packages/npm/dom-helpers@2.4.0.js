@@ -1,1 +1,1 @@
-module.exports = require("npm:dom-helpers@2.4.0/index");
+module.exports = require("npm:dom-helpers@2.4.0/index.js");

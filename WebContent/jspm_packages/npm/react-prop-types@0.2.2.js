@@ -1,1 +1,1 @@
-module.exports = require("npm:react-prop-types@0.2.2/lib/index");
+module.exports = require("npm:react-prop-types@0.2.2/lib/index.js");
