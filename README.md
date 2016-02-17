@@ -1,5 +1,5 @@
 # reactjs-typescript-jspm
-This is an simple example showing how to use Reactjs a with TypeScript and JSPM. Tested with Typescript 1.7, react 1.4.7, jspm 0.16.19 . 
+This is an simple example showing how to use Reactjs a with TypeScript and JSPM. Tested with Typescript 1.8, react 1.4.7, jspm 0.16.19 . 
 
 
 ## Introduction
